@@ -15,7 +15,7 @@ int entero(int *r)
 {
 	int i=20;
 	*r=i;
-	return *r;
+	return *r; // innecesario o redundante
 }
 
 
@@ -50,4 +50,8 @@ punteros tratan directamente con
  desreferenciamos con asterisco.
 	m=entero(&m);
 
-/*
+para modificar el mismo espacio de memoria
+no necesito retornar su valos, porque ya
+ se ha asignado
+
+*/

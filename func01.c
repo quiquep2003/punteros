@@ -15,13 +15,19 @@ int *entero(int *r)
 {
 	int i=20;
 	*r=i;
-	return r;
+	return r; // innecesario redundante
 }
 
 /*
+al pasar &m a la funcion, no necesito
+ retornarlo porque estoy pasando una
+direccion de memoria
+
 la funcion entero() admite un puntero
 y retorna otro puntero.. en este caso
-el mismo.
+el mismo. en otras palabras recibe por
+argumento una direccion de memoria y
+retorna un contenido
 
 en la declaracion de su argumento
 (int *r) admite la dirección de
