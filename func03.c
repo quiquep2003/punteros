@@ -34,7 +34,6 @@ char *pedir_cadena(void)
 	if(len>0 && buffer[len-1]=='\n')
 		buffer[len-1]='\0';
 
-
 	char *res=malloc(len+1);
 	if(!res)
 		return NULL;

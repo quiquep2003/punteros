@@ -22,7 +22,6 @@ int main(void)
 	for(int i=0;i<n;++i)
 		printf("%d: %s\n", i+1, lista[i]);
 
-
 	// liberar memoria
 	for(int i=0;i<n;++i)
 		free(lista[i]);

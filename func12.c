@@ -15,6 +15,7 @@ int entero(int r)
 {
 	int i=20;
 	r=i;
+
 	return r;
 }
 
